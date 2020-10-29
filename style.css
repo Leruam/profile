@@ -4,7 +4,7 @@
 body {
     background: #BBC5DB29;
     color: #575F7D;
-    font-family: 'Turret Road', serif;
+    font-family: 'Montserrat', serif;
     font-size: 17px;
     font-weight: lighter;
     line-height: 20px;
@@ -41,8 +41,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline dotted red;
-  color: #7853dd;
+  color: blue;
 }
 
 .container {
@@ -54,8 +53,9 @@ a:hover {
   background: white;
   border: red;
   margin: 10px;
-  border: 5px solid lightgrey;
+  border: 1px solid lightgrey;
   padding: 35px;
+  border-radius: 20px;
 }
 
 .img-circle {
@@ -66,14 +66,15 @@ a:hover {
 }
 
 .btn-blue {
-    background-color: #6B72E1;
+    background-color: black;
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
   }
 
 .btn-blue:hover {
-    background-color: black;
+    background-color: grey;
     color: white;
   }
 
@@ -96,6 +97,16 @@ a:hover {
   margin-bottom: 40px;
 }
 
+/*@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+
+#try {
+    animation-name: example;
+    animation-duration: 4s;
+}*/
+
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -114,7 +125,3 @@ a:hover {
     width: 300px;
   }
 }
-
-/*question sur l'exo 3 --> div class container : automatique?
-parce que j'ai dû faire le .card*/
-/*pourquoi mettre media à la fin de css ça marche ?*/
